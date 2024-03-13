@@ -2,6 +2,12 @@ img {
     max-width: 100%;
 }
 
+button {
+    background-color: transparent;
+    cursor: pointer;
+    color: inherit;
+}
+
 header {
     background-color: #2C3E50;
 
@@ -24,4 +30,8 @@ header {
 
 .ms_star {
     font-size: 1.5rem;
+}
+
+.ms_white_border {
+    border: 1px solid white;
 }
