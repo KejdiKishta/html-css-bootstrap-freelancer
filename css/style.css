@@ -60,3 +60,8 @@ header {
 .ms_color_aqua {
     color: #1ABC9C;
 }
+
+.ms_copyright {
+    background-color: #2C3E50;
+    font-size: .7rem;
+}
