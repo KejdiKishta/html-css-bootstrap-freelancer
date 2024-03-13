@@ -1,0 +1,27 @@
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #2C3E50;
+
+    /* degubg */
+    height: 60px;
+}
+
+.ms_bg_aqua {
+    background-color: #1ABC9C;
+}
+
+.ms_img_width {
+    width: 10rem;
+}
+
+.ms_line {
+    border: 3px solid white;
+    align-self: center;
+}
+
+.ms_star {
+    font-size: 1.5rem;
+}
