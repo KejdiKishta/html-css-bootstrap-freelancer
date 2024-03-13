@@ -8,6 +8,15 @@ button {
     color: inherit;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 header {
     background-color: #2C3E50;
 
@@ -34,4 +43,20 @@ header {
 
 .ms_white_border {
     border: 1px solid white;
+}
+
+.ms_bg_footer_info {
+    background-color: #3A546D;
+}
+
+.ms_border_social {
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    aspect-ratio: 1;
+}
+
+.ms_color_aqua {
+    color: #1ABC9C;
 }
