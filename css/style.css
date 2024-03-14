@@ -17,13 +17,6 @@ ul {
     list-style-type: none;
 }
 
-header {
-    background-color: #2C3E50;
-
-    /* degubg */
-    height: 60px;
-}
-
 .ms_bg_aqua {
     background-color: #1ABC9C;
 }
