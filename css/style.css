@@ -66,3 +66,7 @@ ul {
     border-bottom: 1px solid black;
     border-radius: 0;
 }
+
+.ms_no_border {
+    border: none;
+}
