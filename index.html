@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- my style -->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -19,25 +18,25 @@
     <!-- !HEADER -->
     <header>
         <!-- *NAVBAR -->
-        <nav class="navbar bg-dark border-bottom border-body navbar-expand-md" data-bs-theme="dark">
+        <nav class="navbar bg-dark navbar-expand-md" data-bs-theme="dark">
             <div class="container">
                 <!-- ?BRAND -->
-                <a class="navbar-brand text-uppercase h2 text-white" href="#">start bootstrap</a>
+                <a class="navbar-brand text-uppercase h2" href="#">start bootstrap</a>
                 <!-- ?TOGGLE BUTTON -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span><i class="fa-solid fa-bars text-white"></i></span>
+                    <span><i class="fa-solid fa-bars"></i></span>
                 </button>
                 <!-- ?LIST -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active text-uppercase text-white" aria-current="page" href="#">Portfolio</a>
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase text-white" href="#">About</a>
+                            <a class="nav-link text-uppercase" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase text-white" href="#">Contact</a>
+                            <a class="nav-link text-uppercase" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -132,23 +131,23 @@
                 <form>
                     <!-- ?TEXT NAME -->
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control ms_form_border" id="floatingInput" placeholder="john wick">
-                        <label for="floatingInput">Name</label>
+                        <input type="text" class="form-control ms_form_border" id="name" placeholder="john wick">
+                        <label for="name">Name</label>
                     </div>
                     <!-- ?EMAIL ADDRESS -->
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control ms_form_border" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
+                        <input type="email" class="form-control ms_form_border" id="e-mail" placeholder="name@example.com">
+                        <label for="e-mail">Email address</label>
                     </div>
                     <!-- ?PHONE NUMBER -->
                     <div class="form-floating mb-3">
-                        <input type="tel" class="form-control ms_form_border" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Phone Number</label>
+                        <input type="tel" class="form-control ms_form_border" id="phone number" placeholder="name@example.com">
+                        <label for="phone number">Phone Number</label>
                     </div>
                     <!-- ?COMMENTS -->
                     <div class="form-floating">
-                        <textarea class="form-control ms_form_border ms_min_height" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">Comments</label>
+                        <textarea class="form-control ms_form_border ms_min_height" placeholder="Leave a comment here" id="comment"></textarea>
+                        <label for="comment">Comments</label>
                     </div>
                     <!-- ?SUBMIT -->
                     <button type="submit" class="btn btn-primary m-4 text-start ms-0 ms_bg_aqua ms_no_border">Send</button>            
